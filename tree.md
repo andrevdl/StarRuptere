@@ -34,6 +34,12 @@ graph LR;
         Calciumpulver-->Synthetisches_silikon;
         Helium_3-->Synthetisches_silikon;
         Keramik-->Synthetisches_silikon;
+        Synthetisches_silikon-->Elektonik;
+        Induktor-->Elektonik;
+        Stator-->Elektonik;
+        Synthetisches_silikon-->Chemikalien;
+        Wolframdraht-->Chemikalien;
+        Helium_3-->Chemikalien;
     end
     subgraph Fabrikator
         Wolframerz-->Einfaches_Baumaterial;
@@ -55,6 +61,18 @@ graph LR;
         Wolframdraht-->Stator;
         Rohr-->Applikator;
         Glas-->Applikator;
+    end
+    subgraph Megapresse
+        Einfaches_Baumaterial-->Standardmunition;
+        Wolframpulver-->Standardmunition;
+        Einfaches_Baumaterial-->Schrotflintenmunition;
+        Calciumpulver-->Schrotflintenmunition;
+        Einfaches_Baumaterial-->Schweremunition;
+        Titanstab-->Schweremunition;
+        Titanstab-->Antreiber;
+        Hitzenresistente_tafel-->Antreiber;
+        Wolframplatte-->Antreiber;
+        Stabilisator-->Antreiber;
     end
 
 linkStyle 0 stroke:#ff0000,stroke-width:2px
@@ -96,5 +114,18 @@ linkStyle 35 stroke:#00ff99,stroke-width:2px
 linkStyle 36 stroke:#ff0099,stroke-width:2px
 linkStyle 37 stroke:#99ff00,stroke-width:2px
 linkStyle 38 stroke:#0099ff,stroke-width:2px
+linkStyle 39 stroke:#cc0000,stroke-width:2px
+linkStyle 40 stroke:#00cc00,stroke-width:2px
+linkStyle 41 stroke:#0000cc,stroke-width:2px
+linkStyle 42 stroke:#cccc00,stroke-width:2px
+linkStyle 43 stroke:#cc00cc,stroke-width:2px
+linkStyle 44 stroke:#00cccc,stroke-width:2px
+linkStyle 45 stroke:#ff5500,stroke-width:2px
+linkStyle 46 stroke:#5500ff,stroke-width:2px
+linkStyle 47 stroke:#00ff55,stroke-width:2px
+linkStyle 48 stroke:#ff0055,stroke-width:2px
+linkStyle 49 stroke:#55ff00,stroke-width:2px
+linkStyle 50 stroke:#0055ff,stroke-width:2px
+linkStyle 51 stroke:#ff7700
 
 ```
