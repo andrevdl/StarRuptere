@@ -5,6 +5,12 @@ config:
     
 ---
 graph LR;
+    subgraph Grundstoffe
+        Titanerze;
+        Wolframerz;
+        Calciumerz;
+        Helium_3;
+    end
     subgraph Schmelzofen
         Titanerze--> Titanbaren;
         Wolframerz-->wolframbarren;
