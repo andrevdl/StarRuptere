@@ -11,6 +11,41 @@ graph LR;
         Calciumerz;
         Helium_3;
     end
+    subgraph Fabrikator
+        Einfaches_Baumaterial;
+        Pistolenmunition;
+        Titanstab;
+        Wolframdraht;
+        Kalzittafeln;
+        Titantrager;
+        Titanblech;
+        Wolframplatte;
+        Rotor;
+        Rohr;
+        Stabilisator;
+        Stator;
+        Applikator;
+    end
+    subgraph Schmelzhutte
+        direction BT
+        Wolframpulver;
+        Calciumpulver;
+        Keramik
+        Titangehause;
+        Glas
+        Induktor;
+        Hitzenresistente_tafel;
+        Synthetisches_silikon;
+        Elektonik;
+        Chemikalien;
+    end
+    subgraph Megapresse
+        Standardmunition;
+        Schrotflintenmunition;
+        Schweremunition;
+        Antreiber;
+    end
+
     subgraph Schmelzofen
         Titanerze--> Titanbaren;
         Wolframerz-->Wolframbarren;
