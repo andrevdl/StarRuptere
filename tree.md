@@ -1,5 +1,5 @@
 ```mermaid
-graph TD;
+graph LR;
     Titanerz-->Titanbaren;
     Wolframerz-->wolframbarren;
     Calciumerz-->Calciumblock;
