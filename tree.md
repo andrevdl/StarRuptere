@@ -1,8 +1,11 @@
 ```mermaid
 graph LR;
+    subgraph Schmelzofen
     Titanerz-->Titanbaren;
     Wolframerz-->wolframbarren;
     Calciumerz-->Calciumblock;
+    end
+    subgraph Schmelzhutte
     wolframbarren-->Wolframpulver;
     Calciumblock-->Calciumpulver;
     Kalzittafeln-->Keramik
@@ -20,6 +23,8 @@ graph LR;
     Calciumpulver-->Synthetisches_silikon;
     Helium_3-->Synthetisches_silikon;
     Keramik-->Synthetisches_silikon;
+    end
+    subgraph Fabrikator
     Wolframerz-->Einfaches_Baumaterial;
     Titanerz-->Einfaches_Baumaterial;
     Einfaches_Baumaterial-->Pistolenmunition;
@@ -39,4 +44,5 @@ graph LR;
     Wolframdraht-->Stator;
     Rohr-->Applikator;
     Glas-->Applikator;
+    end
 ```
