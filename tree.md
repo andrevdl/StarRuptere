@@ -126,6 +126,9 @@ linkStyle 47 stroke:#00ff55,stroke-width:2px
 linkStyle 48 stroke:#ff0055,stroke-width:2px
 linkStyle 49 stroke:#55ff00,stroke-width:2px
 linkStyle 50 stroke:#0055ff,stroke-width:2px
-linkStyle 51 stroke:#ff7700
+linkStyle 51 stroke:#ff7700,stroke-width:2px
+linkStyle 52 stroke:#7700ff,stroke-width:2px
+linkStyle 53 stroke:#00ff77,stroke-width:2px
+linkStyle 54 stroke:#ff0077,stroke-width:2px
 
 ```
