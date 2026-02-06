@@ -41,7 +41,7 @@ graph LR;
         Einfaches_Baumaterial-->Pistolenmunition;
         Titanbaren-->Titanstab;
         Wolframbarren-->Wolframdraht;
-        Calciumblock-->Kalzitttafeln;
+        Calciumblock-->Kalzittafeln;
         Titanbaren-->Titantrager;
         Titanbaren-->Titanblech;
         Wolframbarren-->Wolframplatte;
