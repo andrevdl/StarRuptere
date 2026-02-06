@@ -13,11 +13,11 @@ graph LR;
     end
     subgraph Schmelzofen
         Titanerze--> Titanbaren;
-        Wolframerz-->wolframbarren;
+        Wolframerz-->Wolframbarren;
         Calciumerz-->Calciumblock;
     end
     subgraph Schmelzhutte
-        wolframbarren-->Wolframpulver;
+        Wolframbarren-->Wolframpulver;
         Calciumblock-->Calciumpulver;
         Kalzittafeln-->Keramik
         Wolframpulver-->Keramik;
@@ -44,7 +44,7 @@ graph LR;
         Calciumblock-->Kalzitttafeln;
         Titanbaren-->Titantrager;
         Titanbaren-->Titanblech;
-        wolframbarren-->Wolframplatte;
+        Wolframbarren-->Wolframplatte;
         Titanstab-->Rotor;
         Wolframdraht-->Rotor;
         Titanstab-->Rohr;
