@@ -22,7 +22,7 @@ graph LR;
         Kalzittafeln-->Keramik
         Wolframpulver-->Keramik;
         Titantrager-->Titangehause;
-        Titanbleck-->Titangehause;
+        Titanblech-->Titangehause;
         Helium_3-->Glas
         Calciumpulver-->Glas;
         Rohr-->Induktor;
@@ -43,7 +43,7 @@ graph LR;
         Wolframbarren-->Wolframdraht;
         Calciumblock-->Kalzitttafeln;
         Titanbaren-->Titantrager;
-        Titanbaren-->Titanbleck;
+        Titanbaren-->Titanblech;
         wolframbarren-->Wolframplatte;
         Titanstab-->Rotor;
         Wolframdraht-->Rotor;
