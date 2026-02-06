@@ -37,7 +37,7 @@ graph LR;
     end
     subgraph Fabrikator
         Wolframerz-->Einfaches_Baumaterial;
-        Titanerz-->Einfaches_Baumaterial;
+        Titanerze-->Einfaches_Baumaterial;
         Einfaches_Baumaterial-->Pistolenmunition;
         Titanbaren-->Titanstab;
         Wolframbarren-->Wolframdraht;
